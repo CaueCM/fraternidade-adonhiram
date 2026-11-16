@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre o projeto — Fraternidade Adonhiram</title>
+<link rel="icon" href="assets/img/aguia.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="projeto">
+<main>
+<section class="page-head"><div class="wrap"><div><span class="eyebrow">Protótipo · versão 0.1 · 16/11/2026</span><h1>Sobre o projeto</h1><p>Como testar este protótipo, o que vem a seguir e o que precisamos do grupo.</p></div></div><div class="checker" style="height:8px"></div></section>
+<div class="doc">
+
+<h2>Como testar</h2>
+<ol>
+  <li>Navegue pelo menu como faria no celular ou no computador.</li>
+  <li>No topo, use <strong>"Visualizar como"</strong> para trocar de perfil: Visitante, Aprendiz, Companheiro, Mestre, Fraterna, Sócio, Admin da Loja e Admin master. Os posts, eventos e documentos aparecem ou somem conforme o grau.</li>
+  <li>Entre em <a href="admin.html">Administração</a> (como Admin) para ver a gestão de usuários, o editor de posts e a tabela de acessos.</li>
+  <li>Mande o feedback no grupo do WhatsApp: "tira isso", "coloca aquilo", "esse nome está errado".</li>
+</ol>
+<p class="muted">Nada aqui está salvo de verdade: é um protótipo visual. Textos entre [colchetes] e nomes de pessoas são de exemplo.</p>
+
+<h2>Páginas</h2>
+<div class="table-wrap"><table><thead><tr><th>Página</th><th>Para quê</th><th>Acesso</th></tr></thead><tbody>
+<tr><td><a href="index.html">Início</a></td><td>Carrossel de destaques, agenda, aniversários, últimas do blog, entidades</td><td>Público + extras logado</td></tr>
+<tr><td><a href="blog.html">Blog</a> / <a href="post.html?id=p3">Artigo</a></td><td>Trabalhos, informes do GOB, eventos, história (TBT), atas resumidas</td><td>Por grau</td></tr>
+<tr><td><a href="agenda.html">Agenda</a></td><td>Sessões, festividades e convites</td><td>Por grau</td></tr>
+<tr><td><a href="fotos.html">Fotos</a></td><td>Álbuns de eventos (vídeos ficam no Drive)</td><td>Por grau</td></tr>
+<tr><td><a href="entidade.html?ent=adonhiram">A Loja</a>, <a href="entidade.html?ent=frafem">Frafem</a>, <a href="entidade.html?ent=damasco">Estrada de Damasco</a></td><td>História, diretoria, galeria de Veneráveis/Presidentes, publicações — cada uma com sua cor</td><td>Público</td></tr>
+<tr><td><a href="documentos.html">Documentos</a></td><td>Estatutos, regimento, atas digitalizadas (links do Drive)</td><td>Logado</td></tr>
+<tr><td><a href="irmaos.html">Irmãos</a></td><td>Diretório com contatos e dados das cunhadas, aniversários</td><td>Membros da Loja</td></tr>
+<tr><td><a href="login.html">Área do Irmão</a></td><td>Login (sem cadastro aberto; senha provisória enviada pelo admin)</td><td>—</td></tr>
+<tr><td><a href="admin.html">Administração</a></td><td>Usuários, conteúdo, editor de posts, acessos por grau</td><td>Autores e admins</td></tr>
+</tbody></table></div>
+
+<h2>O que foi decidido na reunião (09/11)</h2>
+<ul>
+  <li>Site em formato de <strong>blog</strong>, hospedado na Vercel, banco Turso — custo só do domínio.</li>
+  <li>Usuários gerenciados <strong>dentro do site</strong> (não pelo Google). Sem cadastro público: só o administrador cria contas.</li>
+  <li>Acesso em <strong>cascata por grau</strong>: Aprendiz → Companheiro → Mestre, mais o público geral.</li>
+  <li>Páginas separadas e parecidas para a <strong>Loja</strong>, a <strong>Fraternidade Feminina</strong> e a <strong>Associação Estrada de Damasco</strong>, cada uma com seus administradores, e um admin master.</li>
+  <li>Arquivos pesados e vídeos continuam no <strong>Google Drive</strong>. Atas e presença continuam no <strong>GOB Conecta</strong>.</li>
+</ul>
+
+<h2>Próximos passos</h2>
+<ol>
+  <li><strong>Agora:</strong> feedback do grupo sobre este protótipo.</li>
+  <li><strong>Fase 1 (MVP):</strong> login real, cadastro de membros pelo admin, blog com visibilidade por grau, páginas das entidades, domínio próprio.</li>
+  <li><strong>Fase 2:</strong> agenda, álbuns de fotos, diretório de Irmãos, revisão de posts, documentos.</li>
+  <li><strong>Fase 3:</strong> curtidas/comentários, avisos, repositório oficial da associação.</li>
+</ol>
+
+<h2>O que precisamos do grupo</h2>
+<h3>Confirmações (afetam o site)</h3>
+<div class="q"><b>1. Grafia do nome.</b> O estatuto da Frafem escreve "Fraternidade <strong>Adonhiram</strong>, nº 2503"; na conversa usamos "Adoniran". Qual é a oficial?</div>
+<div class="q"><b>2. Nome da associação.</b> O estatuto diz "Sociedade Beneficente Estrada de Damasco" (fundada em 18/09/2002); o logo diz "Associação Beneficente" (19/02/2003). Qual usar? O estatuto ainda cita a "Loja Fraternidade Mongaguá" — está atualizado?</div>
+<div class="q"><b>3. Logo da Loja.</b> A águia com o esquadro e as colunas é o emblema da Loja ou só da Associação? Falta também o logo da Fraternidade Feminina.</div>
+<div class="q"><b>4. Cores da Frafem.</b> Usei um vinho provisório.</div>
+<h3>Permissões</h3>
+<div class="q"><b>5.</b> Um Mestre da Loja vê o conteúdo restrito da Frafem e da Associação? As fraternas veem algo restrito da Loja?</div>
+<div class="q"><b>6.</b> Quem será o admin master e quem administra cada entidade?</div>
+<div class="q"><b>7.</b> Qualquer Irmão pode publicar (com revisão) ou só alguns autores?</div>
+<div class="q"><b>8.</b> Quem pode ver os dados das famílias (telefone e aniversário das cunhadas)?</div>
+<h3>Conteúdo</h3>
+<div class="q"><b>9.</b> Planilha de membros de cada entidade: nome, e-mail, CIM, grau/cargo, dados da família.</div>
+<div class="q"><b>10.</b> Cargos atuais (os 7 da Loja, a diretoria da Frafem e da Associação) e a galeria de Veneráveis/Presidentes.</div>
+<div class="q"><b>11.</b> História de cada entidade, fotos do templo, calendário de sessões e 3 a 5 posts reais para o lançamento.</div>
+<div class="q"><b>12.</b> Domínio desejado e e-mail institucional da Loja para ser dono das contas (GitHub, Vercel, Turso).</div>
+
+<p style="margin-top:32px"><a class="btn pri" href="index.html">Voltar ao site</a></p>
+</div>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
